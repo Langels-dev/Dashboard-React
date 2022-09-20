@@ -1,0 +1,30 @@
+.RightSide {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 4rem 0 4rem 0;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .RightSide {
+    margin: 1rem 0 4rem 0;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .RightSide {
+    width: 100%;
+    margin: 0;
+  }
+  .RightSide > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .CustomerReview {
+    width: 90%;
+  }
+}
